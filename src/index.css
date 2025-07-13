@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ticktock Design System - Pixel Perfect Match
+All colors MUST be HSL for consistent theming.
+*/
+
+@layer base {
+  :root {
+    /* Ticktock Background Colors */
+    --background: 0 0% 100%;
+    --foreground: 220 13% 13%;
+
+    /* Card & Surface Colors */
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 13%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 13%;
+
+    /* Primary Brand Colors - Ticktock Blue */
+    --primary: 220 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 220 100% 45%;
+
+    /* Secondary Colors - Light Gray */
+    --secondary: 210 17% 95%;
+    --secondary-foreground: 220 13% 13%;
+
+    /* Muted Colors for Supporting Elements */
+    --muted: 210 17% 95%;
+    --muted-foreground: 215 25% 27%;
+
+    /* Accent Colors for Highlights */
+    --accent: 210 17% 95%;
+    --accent-foreground: 220 13% 13%;
+
+    /* Status Colors - Ticktock Specific */
+    --completed: 160 84% 39%;
+    --completed-foreground: 0 0% 100%;
+    --incomplete: 25 95% 53%;
+    --incomplete-foreground: 0 0% 100%;
+    --missing: 348 83% 47%;
+    --missing-foreground: 0 0% 100%;
+    --submitted: 220 100% 50%;
+    --submitted-foreground: 0 0% 100%;
+
+    /* Form & Interactive Elements */
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 220 100% 50%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Dark mode colors for professional SaaS */
+    --background: 240 10% 4%;
+    --foreground: 240 5% 95%;
+
+    --card: 240 10% 6%;
+    --card-foreground: 240 5% 95%;
+
+    --popover: 240 10% 6%;
+    --popover-foreground: 240 5% 95%;
+
+    --primary: 217 91% 65%;
+    --primary-foreground: 240 10% 4%;
+    --primary-hover: 217 91% 70%;
+
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 240 5% 85%;
+
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 5% 65%;
+
+    --accent: 240 4% 16%;
+    --accent-foreground: 240 5% 85%;
+
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 240 4% 16%;
+    --input: 240 4% 16%;
+    --ring: 217 91% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
