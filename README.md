@@ -135,30 +135,30 @@ The application uses a custom design system with:
 
 ## ⏱️ Time Spent
 
-**Total Development Time: ~12 hours**
+**Total Development Time: ~7 hours**
 
 ### Breakdown:
-- **Project Setup & Architecture**: 2 hours
+- **Project Setup & Architecture**: 0.5 hours
   - Vite configuration
   - TypeScript setup
   - Project structure planning
   
-- **Authentication System**: 2 hours
+- **Authentication System**: 1 hours
   - Login form components
   - Auth context and hooks
   - localStorage persistence
   
-- **UI Components & Design System**: 3 hours
+- **UI Components & Design System**: 2 hours
   - shadcn/ui integration
   - Custom theming and CSS variables
   - Responsive design implementation
   
-- **Timesheet Components**: 3 hours
+- **Timesheet Components**: 2 hours
   - Table component with status logic
   - Modal components for timesheet entry
   - Weekly view implementation
   
-- **Data Layer & State Management**: 1.5 hours
+- **Data Layer & State Management**: 0.5 hours
   - Mock API implementation
   - Type definitions
   - State management setup
@@ -189,4 +189,4 @@ This is a demo project, but feedback and suggestions are welcome!
 
 ---
 
-**Built with ❤️ using React, TypeScript, and Tailwind CSS**
+**Built with ❤️ By Pratik using React, TypeScript, and Tailwind CSS**
