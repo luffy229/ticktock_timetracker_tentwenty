@@ -42,7 +42,6 @@ A modern, responsive timesheet management application built with React and TypeS
 - **Class Variance Authority** - Component variant management
 - **Date-fns** - Date manipulation utilities
 - **React Hook Form** - Form state management
-- **Zod** - Schema validation
 
 ## 🏗️ Project Structure
 
@@ -85,7 +84,7 @@ src/
    ```
 
 4. **Open your browser**
-   Navigate to `http://localhost:8080`
+   Navigate to `http://localhost:3000`
 
 ### Demo Login Credentials
 - **Email**: `demo@timetracker.com`
