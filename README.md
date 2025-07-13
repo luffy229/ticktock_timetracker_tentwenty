@@ -5,7 +5,7 @@ A modern, responsive timesheet management application built with React and TypeS
 
 ## 🚀 Online Demo
 
-[Live Demo](ticktock-timetracker-tentwenty.vercel.app) - Visit the working application
+[Live Demo](https://ticktock-timetracker-tentwenty.vercel.app/) - Visit the working application
 
 ## 📋 Features
 
