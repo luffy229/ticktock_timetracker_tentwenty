@@ -169,7 +169,7 @@ The application uses a custom design system with:
 
 ## 🚀 Deployment
 
-The application is deployed on Lovable's platform and can be accessed at the demo link above. For custom deployment:
+The application is deployed on Varcel platform and can be accessed at the demo link above. For custom deployment:
 
 1. **Build the application**
    ```bash
